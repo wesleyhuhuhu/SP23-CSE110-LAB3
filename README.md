@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://wesleyhuhuhu.github.io/Lab2_Starter/
+# Lab 3
+https://wesleyhuhuhu.github.io/SP23-CSE110-LAB3
