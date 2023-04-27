@@ -33,18 +33,21 @@
         <hr>
         <div class="Agenda">
             <h5>Agenda</h5>
-            <ol>
-                <li>do some html</li>
-                <li>do some css</li>
-                <li>do some javascript</li>
+            <ol class="flex">
+                <li class="flexitem">do some html</li>
+                <li class="flexitem">do some css</li>
+                <li class="flexitem">do some javascript</li>
             </ol>
             <p>These are the things we do ig.<span></span></p>
         </div>
         <h5>Unfinished business</h5>
+        <div class="grid">
         <ul>
-            <li><strong>stop<br>being<br>bad</strong></li>
-            <li><b>do some leetcode</b></li>
+            <li class="griditem"><strong>stop<br>being<br>bad</strong></li>
+            <li class="griditem"><b>do some leetcode</b></li>
+            <li class="griditem"><b>apply for jobs</b></li>
         </ul>
+        </div>
         <h5>New business</h5>
         <ul>
             <li><strong>who is <i>best</i> at software engineering?</strong></li>
@@ -52,7 +55,7 @@
         </ul>
         <h5>Questions or Concerns:</h5>
         <img src="kmaps.png" alt="These are k-maps" width="500" height="300">
-        <form method="get">
+        <form method="get" id="prior">
             <fieldset>
                 <legend>Prior Knowledge</legend>
                 <p>Do you know about KMaps?</p>
@@ -69,7 +72,7 @@
         </form>
         <br><br>
 
-        <form method="get">
+        <form method="get" id="feedback">
             <p>Do you have any feedback?</p>
             <br>
             <textarea id="feedback" rows="4" cols="50"></textarea>
@@ -77,7 +80,7 @@
             <button type="submit" value="Submit">Submit</button>
         </form>
         <br>
-
+        <div class="video">
         <p><b>Here's a video:</b></p>
         <video width="640" height="360" controls>
             <source src="SWE.mp4" type="video/mp4">
@@ -88,8 +91,9 @@
             controls>
             <source src="SWE.mp3" type="audio/mp3">
         </audio>
+        </div>
 
-        <form method="get">
+        <form method="get" id="good">
             <label>Am I good at the game:</label>
             <input list="skill" name="skill">
             <datalist id="skill">
@@ -107,7 +111,7 @@
                 <option value="audi">Deagle</option>
             </select>
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="lastbutton">
         </form>
     </main>
     <details>
