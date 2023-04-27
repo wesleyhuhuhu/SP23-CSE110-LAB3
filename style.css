@@ -1,3 +1,111 @@
+@media screen and (max-width: 500px) {
+    body {
+      background-color: lavender;
+    }
+}
+
+@font-face {
+    font-family: "comic";
+    src: url(ComicNeue-Regular.ttf);
+}
+
 body {
     background-color: rgb(69, 201, 201);
+    font-family: comic;
+}
+
+nav {
+    width: 170px;
+    margin: auto;
+    border-color: red;
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 0%;
+}
+
+h1 {
+    position: sticky;
+    top: 5px;
+}
+
+h2 {
+    margin: 0px 50px 0px 200px;
+    padding: 50px 0px 10px 0px;
+    color:hsla(0, 0%, 0%, 0.7);
+}
+
+h3 {
+    text-align: center;
+    font-size: 2vw;
+    position: static;
+}
+
+h5 {
+    height: 20px;
+}
+
+.video {
+    width: 650px;
+    margin: auto;
+}
+
+#good {
+    display: grid;
+    margin-top: 30px;
+    color:#007D2E
+}
+
+#feedback {
+    text-decoration: black wavy underline;
+    display: block;
+    color:hsl(0, 100%, 50%);
+}
+
+#prior {
+    max-width: 50%;
+    min-width: 25%;
+}
+
+button:hover {
+    color: blue;
+}
+
+details:active {
+    color: blue;
+}
+
+.flex {
+    display: flex;
+
+    flex-flow:column;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flexitem {
+    background: rgb(103, 103, 209);
+    padding: 5px;
+    width: 150px;
+    height: 15px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.76);
+    font-weight: bold;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:30vw;
+    grid-gap: 10em;
+    justify-content: stretch;  
+}
+
+.griditem {
+    background: #098a43;
+    padding: 0.3em;
+    justify-self: stretch;
+    border: #3700ff;
 }
